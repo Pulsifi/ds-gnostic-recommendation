@@ -1,5 +1,6 @@
 .envrc
 .venv
-.ipynb_checpoints/
+.ipynb_checkpoints/
+__pycache__/
 data/
 .vscode
