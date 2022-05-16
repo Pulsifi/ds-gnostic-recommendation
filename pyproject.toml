@@ -17,6 +17,7 @@ spacy = "^3.3.0"
 pytextrank = "^3.2.3"
 
 [tool.poetry.dev-dependencies]
+tqdm = "^4.64.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
