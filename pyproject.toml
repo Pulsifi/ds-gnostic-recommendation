@@ -3,18 +3,28 @@ name = "kg"
 version = "0.1.0"
 description = ""
 authors = ["catethos <cloverethos@gmail.com>"]
+packages = [{include="Utilities_Functions"}
+]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<=3.10"
 pandas = "^1.4.2"
 seaborn = "^0.11.2"
-neo4j = "^4.4.2"
+neo4j = "4.4.2"
 ipykernel = "^6.13.0"
 requests = "^2.27.1"
 tqdm = "^4.64.0"
 py2neo = "^2021.2.3"
 spacy = "^3.3.0"
 pytextrank = "^3.2.3"
+top2vec = {extras = ["sentence_encoders"], version = "^1.0.27"}
+ipywidgets = "^8.0.0rc0"
+tensorflow = "^2.8.0"
+llvmlite = "^0.38.0"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz"}
+more-itertools = "^8.13.0"
+fastapi = "^0.78.0"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
 
 [tool.poetry.dev-dependencies]
 
