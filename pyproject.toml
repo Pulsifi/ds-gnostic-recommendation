@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "kg"
+name = "knowledge_graph"
 version = "0.1.0"
 description = ""
 authors = ["catethos <cloverethos@gmail.com>"]
@@ -11,10 +11,10 @@ seaborn = "^0.11.2"
 neo4j = "^4.4.2"
 ipykernel = "^6.13.0"
 requests = "^2.27.1"
-tqdm = "^4.64.0"
 py2neo = "^2021.2.3"
 spacy = "^3.3.0"
 pytextrank = "^3.2.3"
+more-itertools = "^8.13.0"
 
 [tool.poetry.dev-dependencies]
 tqdm = "^4.64.0"
